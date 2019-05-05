@@ -233,7 +233,7 @@ HARNESS</text>
 <rectangle x1="27.305" y1="44.7675" x2="29.21" y2="66.3575" layer="21"/>
 <hole x="9.8425" y="20.955" drill="4"/>
 <hole x="83.82" y="53.34" drill="4"/>
-<text x="31.4325" y="15.875" size="1.778" layer="25" rot="R180">Designed by @kamencesc</text>
+<text x="40.64" y="15.24" size="1.778" layer="25" rot="R180">Designed by @kamencesc</text>
 <text x="61.595" y="66.04" size="2.54" layer="26" rot="MR180">Basic Supergun</text>
 <dimension x1="0" y1="0.3175" x2="114.935" y2="0.635" x3="57.4675" y3="-6.6675" textsize="1.778" layer="51" dtype="horizontal"/>
 <dimension x1="0" y1="67.31" x2="0.3175" y2="0" x3="-13.6525" y3="33.655" textsize="1.778" layer="51" dtype="vertical"/>
@@ -487,6 +487,30 @@ HARNESS</text>
 <text x="29.5275" y="38.1" size="1.143" layer="25" rot="R90">R7</text>
 <wire x1="24.765" y1="40.64" x2="30.1625" y2="40.64" width="0.3048" layer="25"/>
 <text x="25.4" y="41.275" size="1.778" layer="25">220</text>
+<text x="19.685" y="37.465" size="1.778" layer="25">R</text>
+<text x="19.685" y="29.5275" size="1.778" layer="25">G</text>
+<text x="19.685" y="21.59" size="1.778" layer="25">B</text>
+<wire x1="19.685" y1="23.8125" x2="24.13" y2="23.8125" width="0.1524" layer="25"/>
+<wire x1="24.13" y1="23.8125" x2="24.13" y2="21.2725" width="0.1524" layer="25"/>
+<wire x1="24.13" y1="21.2725" x2="19.685" y2="21.2725" width="0.1524" layer="25"/>
+<wire x1="19.685" y1="21.2725" x2="19.685" y2="23.8125" width="0.1524" layer="25"/>
+<wire x1="19.685" y1="31.75" x2="24.13" y2="31.75" width="0.1524" layer="25"/>
+<wire x1="24.13" y1="31.75" x2="24.13" y2="29.21" width="0.1524" layer="25"/>
+<wire x1="24.13" y1="29.21" x2="19.685" y2="29.21" width="0.1524" layer="25"/>
+<wire x1="19.685" y1="29.21" x2="19.685" y2="31.75" width="0.1524" layer="25"/>
+<wire x1="19.685" y1="37.1475" x2="24.13" y2="37.1475" width="0.1524" layer="25"/>
+<wire x1="24.13" y1="37.1475" x2="24.13" y2="39.6875" width="0.1524" layer="25"/>
+<wire x1="24.13" y1="39.6875" x2="19.685" y2="39.6875" width="0.1524" layer="25"/>
+<wire x1="19.685" y1="39.6875" x2="19.685" y2="37.1475" width="0.1524" layer="25"/>
+<text x="12.3825" y="23.1775" size="0.889" layer="25">SYNC</text>
+<wire x1="12.065" y1="24.13" x2="12.065" y2="22.86" width="0.1524" layer="25"/>
+<wire x1="12.065" y1="22.86" x2="16.1925" y2="22.86" width="0.1524" layer="25"/>
+<wire x1="16.1925" y1="22.86" x2="16.1925" y2="20.6375" width="0.1524" layer="25"/>
+<wire x1="16.1925" y1="20.6375" x2="15.875" y2="20.6375" width="0.1524" layer="25"/>
+<text x="1.905" y="57.785" size="0.889" layer="25" rot="R90">GND</text>
+<wire x1="7.62" y1="60.6425" x2="2.54" y2="60.6425" width="0.1524" layer="25"/>
+<wire x1="2.54" y1="60.6425" x2="2.54" y2="57.4675" width="0.1524" layer="25"/>
+<wire x1="2.54" y1="57.4675" x2="7.62" y2="57.4675" width="0.1524" layer="25"/>
 </plain>
 <libraries>
 <library name="con-subd" urn="urn:adsk.eagle:library:189">
