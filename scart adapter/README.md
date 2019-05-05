@@ -1,4 +1,4 @@
-# Scart Adapter
+# Scart Adapter (jamma rgb2scart)
 Con este adaptador tendremos señal de salida en SCART lista para connectar a una TV (no todas son compatibles).
 
 Solo tenemos que llevar los siguientes señales
@@ -7,3 +7,5 @@ Solo tenemos que llevar los siguientes señales
 * Sync
 * 12V
 * Audio R y L (con opción de usar un cable jack-jack)
+
+**UNTESTED**
