@@ -21,7 +21,11 @@ Salida de video mediante terminales de tornillo, directa del connector JAMMA par
 
 Entrada de corriente mediante terminales de tornillo, +5V +12V -5V y GND. Los -5V no suelen usarse pero lo dejamos por si alguna placa lo requiere.
 
+La placa integra un connector para Kick Harness de CPS2 y así no tener que ir haciendo bricolaje. Este connector tiene que ir arrimado a la derecha del Kick Harness en el modulo CPS2.
+
 # Agradecimientos
 En esete proyecto se ha usado el conector Jamma disponible en **Shinichi-Ohki** y disponible en su GitHub: https://github.com/Shinichi-Ohki/JAMMA_connector_for_eagle
 
-Los "pañeros" de telegram por aguantar mis preguntas tontas...
+Los "pañeros" de _Crazy Lab_ por aguantar mis preguntas tontas...
+
+**UNTESTED**
