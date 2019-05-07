@@ -24,7 +24,9 @@ Entrada de corriente mediante terminales de tornillo, +5V +12V -5V y GND. Los -5
 La placa integra un connector para Kick Harness de CPS2 y así no tener que ir haciendo bricolaje. Este connector tiene que ir arrimado a la derecha del Kick Harness en el modulo CPS2.
 
 # Agradecimientos
-En esete proyecto se ha usado el conector Jamma disponible en **Shinichi-Ohki** y disponible en su GitHub: https://github.com/Shinichi-Ohki/JAMMA_connector_for_eagle
+En este proyecto se ha usado el conector Jamma disponible en **Shinichi-Ohki** y disponible en su GitHub: https://github.com/Shinichi-Ohki/JAMMA_connector_for_eagle
+
+Teneis un fork de su proyecto en mi github en el que he integrado conectores inversos (los que usa este supergun) y he suprimido el texto (que ademas tenia en la misma cara y lo hacía inteligible): https://github.com/kamencesc/JAMMA_connector_for_eagle
 
 Los "pañeros" de _Crazy Lab_ por aguantar mis preguntas tontas...
 
