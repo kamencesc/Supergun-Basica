@@ -13,7 +13,7 @@ Entrada de 6 pins para conecta un Kick Harness.
 
 Botón para seleccionar si jugar con el botón 6 del Kick Harness o de la placa arcade (ej. Bluelf)
 
-Cambio de botones via hardware, nos permite poder cambiar la entre dos distribuciones de botones en el caso de usar un CPO del tipo 6 botones como los de Capcom. Mediante este cambio podemos asignar los 6 botones para usar un juego de lucha de Capcom (modo normal) o bien usar los dos primeros botones de la izquierda de las dos hileras, para juegos de lucha de NeoGeo de 4 botones.
+Cambio de botones via hardware, nos permite poder cambiar la entre dos distribuciones de botones en el caso de usar un CPO del tipo 6 botones como los de Capcom. Mediante este cambio podemos asignar los 6 botones para usar un juego de lucha de Capcom (modo normal) o bien usar los dos primeros botones de la izquierda de las dos hileras, para juegos de lucha de NeoGeo de 4 botones. **Es importante que los switch estén siempre en la misma posición para evitar doblepulsación**
 
 Salida Jack de 3,5" con selector para audio MONO o STEREO
 
@@ -22,6 +22,8 @@ Salida de video mediante terminales de tornillo, directa del connector JAMMA par
 Entrada de corriente mediante terminales de tornillo, +5V +12V -5V y GND. Los -5V no suelen usarse pero lo dejamos por si alguna placa lo requiere.
 
 La placa integra un connector para Kick Harness de CPS2 y así no tener que ir haciendo bricolaje. Este connector tiene que ir arrimado a la derecha del Kick Harness en el modulo CPS2.
+
+Para facilitar la manipulación, se pueden usar switch/palancas externas, por ejemplo en una caja o en un mueble arcade, para así tener mas accesible la configuración de botones o los botones Credit, Test, Servicio y Select+ (cambio de juego en MVS multi cartucho).
 
 # Agradecimientos
 En este proyecto se ha usado el conector Jamma disponible en **Shinichi-Ohki** y disponible en su GitHub: https://github.com/Shinichi-Ohki/JAMMA_connector_for_eagle
