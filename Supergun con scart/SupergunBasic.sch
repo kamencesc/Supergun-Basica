@@ -8521,6 +8521,7 @@ Source: www.kingbright.com</description>
 <part name="R8" library="adafruit" deviceset="R-US_" device="0204/7" value="220"/>
 <part name="R11" library="adafruit" deviceset="R-US_" device="0204/7" value="680k"/>
 <part name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="GND" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -8817,6 +8818,10 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="146.05" y="104.775" size="1.778" layer="95"/>
 <attribute name="VALUE" x="146.05" y="91.44" size="1.778" layer="96"/>
 </instance>
+<instance part="GND" gate="1" x="218.44" y="10.16" smashed="yes">
+<attribute name="NAME" x="217.297" y="12.0142" size="1.778" layer="95"/>
+<attribute name="VALUE" x="217.297" y="6.858" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9007,6 +9012,11 @@ Source: www.kingbright.com</description>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <wire x1="43.18" y1="149.86" x2="53.34" y2="149.86" width="0.1524" layer="91"/>
 <label x="53.34" y="149.86" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="GND" gate="1" pin="P"/>
+<wire x1="220.98" y1="10.16" x2="223.52" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="10.16" x2="223.52" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="J_P2_B6" class="0">
