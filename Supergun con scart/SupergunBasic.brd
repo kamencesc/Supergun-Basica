@@ -1949,7 +1949,7 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 </class>
 <class number="2" name="VCC-5" width="0.762" drill="0">
 </class>
-<class number="3" name="VCC+12" width="2.032" drill="0">
+<class number="3" name="VCC+12" width="0.762" drill="0">
 </class>
 <class number="4" name="GND" width="0.762" drill="0">
 </class>
@@ -2649,21 +2649,21 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <contactref element="JAMMA2" pad="F"/>
 <contactref element="R9" pad="1"/>
 <contactref element="U$1" pad="8"/>
-<wire x1="91.1275" y1="5.715" x2="91.1275" y2="15.51375" width="2.032" layer="1"/>
-<wire x1="91.1275" y1="15.51375" x2="88.385" y2="18.25625" width="2.032" layer="1"/>
-<wire x1="91.1275" y1="5.715" x2="91.1275" y2="15.51375" width="2.032" layer="16"/>
-<wire x1="91.1275" y1="15.51375" x2="88.385" y2="18.25625" width="2.032" layer="16"/>
-<wire x1="112.82045" y1="49.77876875" x2="112.82045" y2="26.73873125" width="2.032" layer="1"/>
-<wire x1="112.82045" y1="49.77876875" x2="111.16421875" y2="51.435" width="2.032" layer="1"/>
-<wire x1="109.06125" y1="51.435" x2="111.16421875" y2="51.435" width="2.032" layer="1"/>
-<wire x1="109.66561875" y1="23.5839" x2="112.82045" y2="26.73873125" width="2.032" layer="1"/>
-<wire x1="109.66561875" y1="23.5839" x2="99.1489" y2="23.5839" width="2.032" layer="1"/>
-<wire x1="99.06" y1="23.495" x2="99.1489" y2="23.5839" width="2.032" layer="1"/>
-<wire x1="89.3375" y1="21.43125" x2="88.385" y2="20.47875" width="2.032" layer="16"/>
-<wire x1="88.385" y1="18.25625" x2="88.385" y2="20.47875" width="2.032" layer="16"/>
-<wire x1="97.31375" y1="21.43125" x2="99.06" y2="23.1775" width="2.032" layer="16"/>
-<wire x1="99.06" y1="23.1775" x2="99.06" y2="23.495" width="2.032" layer="16"/>
-<wire x1="89.3375" y1="21.43125" x2="97.31375" y2="21.43125" width="2.032" layer="16"/>
+<wire x1="91.1275" y1="5.715" x2="91.1275" y2="15.51375" width="0.762" layer="1"/>
+<wire x1="91.1275" y1="15.51375" x2="88.385" y2="18.25625" width="0.762" layer="1"/>
+<wire x1="91.1275" y1="5.715" x2="91.1275" y2="15.51375" width="0.762" layer="16"/>
+<wire x1="91.1275" y1="15.51375" x2="88.385" y2="18.25625" width="0.762" layer="16"/>
+<wire x1="112.82045" y1="49.77876875" x2="112.82045" y2="26.73873125" width="0.762" layer="1"/>
+<wire x1="112.82045" y1="49.77876875" x2="111.16421875" y2="51.435" width="0.762" layer="1"/>
+<wire x1="109.06125" y1="51.435" x2="111.16421875" y2="51.435" width="0.762" layer="1"/>
+<wire x1="109.66561875" y1="23.5839" x2="112.82045" y2="26.73873125" width="0.762" layer="1"/>
+<wire x1="109.66561875" y1="23.5839" x2="99.1489" y2="23.5839" width="0.762" layer="1"/>
+<wire x1="99.06" y1="23.495" x2="99.1489" y2="23.5839" width="0.762" layer="1"/>
+<wire x1="89.3375" y1="21.43125" x2="88.385" y2="20.47875" width="0.762" layer="16"/>
+<wire x1="88.385" y1="18.25625" x2="88.385" y2="20.47875" width="0.762" layer="16"/>
+<wire x1="97.31375" y1="21.43125" x2="99.06" y2="23.1775" width="0.762" layer="16"/>
+<wire x1="99.06" y1="23.1775" x2="99.06" y2="23.495" width="0.762" layer="16"/>
+<wire x1="89.3375" y1="21.43125" x2="97.31375" y2="21.43125" width="0.762" layer="16"/>
 </signal>
 <signal name="P1_B4">
 <contactref element="JAMMA1" pad="25"/>
